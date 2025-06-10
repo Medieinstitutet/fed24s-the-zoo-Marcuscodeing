@@ -1,7 +1,9 @@
+import { AnimalDetail } from "../components/AnimalDetail";
+
 export const AnimalDetails = () => {
   return (
     <>
-      <p>Här finns mer information om djur</p>
+      <AnimalDetail />
     </>
   );
 };
