@@ -1,4 +1,4 @@
-import { Animals } from "../components/FetchAnimal";
+import { Animals } from "../components/Animals";
 
 export const Animalpage = () => {
   return (
@@ -10,6 +10,7 @@ export const Animalpage = () => {
       <p className="font-medium text-center m-16">
         Klicka dig vid vidare för att se mer information och mata djuren
       </p>
+
       <Animals />
     </>
   );

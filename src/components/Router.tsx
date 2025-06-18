@@ -1,8 +1,9 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter } from "react-router";
+import { Layout } from "./Layout";
 import { Homepage } from "../pages/Homepage";
-import { Animalpage } from "../pages/Animalpage";
-import { Layout } from "../pages/Layout";
-import { AnimalDetails } from "../pages/AnimalDetails";
+import { Animalpage } from "../pages/Animalspage";
+import { AnimalDetails } from "../pages/Animalpagedetail";
+import { NavLink } from "react-router-dom";
 
 export const Router = createBrowserRouter([
   {

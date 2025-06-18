@@ -3,8 +3,9 @@ export interface Animal {
   name: string;
   yearOfBirth: number;
   imageUrl: string;
+  longDescription: string;
   shortDescription: string;
   medicine: string;
-  lastFed: string | null;
+  lastFed: string;
   isFed: boolean;
 }

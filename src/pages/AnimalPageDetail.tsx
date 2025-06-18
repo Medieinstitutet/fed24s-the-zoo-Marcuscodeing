@@ -1,9 +1,5 @@
 import { AnimalDetail } from "../components/AnimalDetail";
 
 export const AnimalDetails = () => {
-  return (
-    <>
-      <AnimalDetail />
-    </>
-  );
+  return <AnimalDetail />;
 };
