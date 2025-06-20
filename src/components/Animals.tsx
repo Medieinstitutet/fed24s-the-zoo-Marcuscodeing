@@ -33,7 +33,7 @@ export const Animals = () => {
               <img
                 src={animal.imageUrl}
                 alt={animal.name}
-                onError={(e) => (e.currentTarget.src = "/fallback.jpg")}
+                onError={(e) => (e.currentTarget.src = "/fallback.png")}
                 className="w-full h-48 object-cover rounded-md mb-2"
               />
               <p>{animal.shortDescription}</p>

@@ -30,12 +30,13 @@ export const AnimalDetail = () => {
       <div className="rounded-lg p-6 max-w-md w-full text-center space-y-6 animal transition-transform duration-300 hover:scale-105 hover:shadow-lg">
         <h2>{animal.name}</h2>
         <img
+          className="w-full h-auto max-h-64 object-contain mx-auto"
           src={animal.imageUrl}
           alt={animal.name}
-          onError={(e) => (e.currentTarget.src = "/fallback.jpg")}
+          onError={(e) => (e.currentTarget.src = "/fallback.png")}
         />
         <p>{animal.longDescription}</p>
-        <p>Senast matad: {lastFed.toLocaleString()}</p>
+        <p className="">Senast matad: {lastFed.toLocaleString()}</p>
         <button
           onClick={handleFeed}
           disabled={!canFeed}

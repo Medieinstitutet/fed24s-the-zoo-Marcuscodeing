@@ -9,18 +9,23 @@ export const Homepage = () => {
   return (
     <>
       <div>
-        <video autoPlay muted loop>
+        <video
+          autoPlay
+          muted
+          loop
+          className="w-full h-auto max-h-[90vh] object-cover"
+        >
           <source src="/Zoo.mp4" type="video/mp4" />
         </video>
       </div>
       <h1 className="text-center mt-20">
-        Välkommen till Zootopia <br />
+        Välkommen till Zootopia. <br />
         Ett Äventyr för Hela Familjen!
       </h1>
       <p className="text-center m-16">
-        Upptäck djurens magiska värld hos oss på Nordiska Zoo! Här möter du allt{" "}
+        Upptäck djurens magiska värld hos oss på Zootopia! Här möter du allt
         <br />
-        från majestätiska lejon till nyfikna apor, färgglada fåglar och lugna{" "}
+        från majestätiska lejon till nyfikna apor, färgglada fåglar och lugna
         <br />
         sköldpaddor – mitt i en naturskön miljö som är både lärorik och <br />
         spännande.
@@ -30,33 +35,33 @@ export const Homepage = () => {
         className="w-full py-8 text-white text-center "
         style={{ backgroundColor: "#2C5F34" }}
       >
-        <div className="flex justify-center items-center gap-8 max-w-5xl mx-auto px-8">
-          <div>
+        <div className="flex flex-col md:flex-row justify-center items-center gap-8 max-w-5xl mx-auto px-4 py-8">
+          <div className="text-center max-w-xs">
             <img
               className="rounded-lg w-180 h-90 mb-4 "
               src="/lion.jpg"
               alt="Lion"
             />
-            <h2>Skapa upplevelser</h2>
-            <p>Mata djuren</p>
+            <h2>Skapa magiska möten</h2>
+            <p>Kom nära exotiska djur från världens alla hörn</p>
           </div>
-          <div>
+          <div className="text-center max-w-xs">
             <img
               className="rounded-lg w-180 h-90 mb-4"
-              src="/meerkat.jpg"
+              src="/squirrel-monkey.jpg"
               alt="Meerkat"
             />
-            <h2>Utforska deras värld</h2>
-            <p>Här kan du träffa djuren</p>
+            <h2>Utforska deras vardag</h2>
+            <p>Se hur djuren lever, leker och tar hand om varandra</p>
           </div>
-          <div>
+          <div className="text-center max-w-xs">
             <img
               className="rounded-lg w-180 h-90 mb-4 "
               src="giraffe.jpg"
               alt="Giraffe"
             />
             <h2>Följ med på äventyr</h2>
-            <p>Lär dig mer om naturens värld</p>
+            <p>Lär dig mer om naturens fascinerande mångfald</p>
           </div>
         </div>
       </div>
@@ -69,7 +74,7 @@ export const Homepage = () => {
         </div>
 
         <div className="flex flex-col items-center justify-center mt-8">
-          <p>Kolmården, SE-618 92 Kolmården </p>
+          <p>Zootopia, SE-618 92 Zootopia </p>
           <p>Följ oss i sociala medier</p>
         </div>
 
