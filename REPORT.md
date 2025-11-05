@@ -70,8 +70,8 @@ Ha roligt, skratta och lär er massor!
 ## 🔍 ESLint-varningar:
 - C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-Marcuscodeing\src\reducers\animalReducer.ts - no-unused-vars - 'LOADED' is defined but never used.,no-unused-vars - 'FED' is defined but never used.
 
-## 🏆 **Betyg: VG**
-📌 **Motivering:** Koden uppfyller alla kraven för både betyg G och VG. Routern är korrekt implementerad med layouts, child-routes och error-element. Applikationen hanterar bildlänkar och lokal lagring korrekt. Reducers används istället för state för djurhantering och context används istället för props för komponentkommunikation. Data hämtas med hjälp av tjänster.
+## 🏆 **Betyg: G**
+📌 **Motivering:** Projektet visar tecken på att uppfylla vissa av kraven som att använda tjänster och reducers. Full implementering av router och bildhantering behöver verifieras.
 
 💡 **Förbättringsförslag:**  
-Det finns inga större brister i koden. En liten förbättring kan vara att lägga till fler subtila animeringar för att göra användarupplevelsen ännu mer engagerande, till exempel vid sidladdningar eller förändringar av route. Annars är koden välstrukturerad och uppfyller alla krav på ett bra sätt.
+Inkorporera en router korrekt och säkerställ bildfelshantering. Dokumentera koden bättre för att underlätta framtida underhåll och utveckling.
