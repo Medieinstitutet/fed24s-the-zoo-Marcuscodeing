@@ -70,8 +70,8 @@ Ha roligt, skratta och lär er massor!
 ## 🔍 ESLint-varningar:
 - C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-Marcuscodeing\src\reducers\animalReducer.ts - no-unused-vars - 'LOADED' is defined but never used.,no-unused-vars - 'FED' is defined but never used.
 
-## 🏆 **Betyg: G**
-📌 **Motivering:** Projektet visar tecken på att uppfylla vissa av kraven som att använda tjänster och reducers. Full implementering av router och bildhantering behöver verifieras.
+## 🏆 **Betyg: VG**
+📌 **Motivering:** Koden uppfyller både G- och VG-kraven, är välstrukturerad och har bra felhantering samt modernt användargränssnitt.
 
 💡 **Förbättringsförslag:**  
-Inkorporera en router korrekt och säkerställ bildfelshantering. Dokumentera koden bättre för att underlätta framtida underhåll och utveckling.
+Projektet kan ytterligare förbättras med fler enhetstester och dokumentation för mer hållbar kodunderhållning och samarbete.
