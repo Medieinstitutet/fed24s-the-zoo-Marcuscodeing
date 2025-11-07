@@ -1,7 +1,6 @@
 # 📌 Rättningsrapport – fed24s-the-zoo-Marcuscodeing
 
 ## 🎯 Uppgiftens Krav:
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/xBUCHFwF)
 # The Zoo
 
 I denna inlämningsuppgift kommer ni att bygga ett zoo. Zoo:t har ett antal djur som kommer behöva matas. 
@@ -66,12 +65,11 @@ Välj en teknik gällande css som ni antingen vill lära er mer om eller som ni 
 
 Ha roligt, skratta och lär er massor!
 
-
 ## 🔍 ESLint-varningar:
 - C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-Marcuscodeing\src\reducers\animalReducer.ts - no-unused-vars - 'LOADED' is defined but never used.,no-unused-vars - 'FED' is defined but never used.
 
 ## 🏆 **Betyg: VG**
-📌 **Motivering:** Projektet uppfyller alla krav för både G och VG-betygen. Kodstruktur och implementationsdetaljer är väl genomförda, samt korrekt användning av React-syntax och verktyg.
+📌 **Motivering:** Koden uppfyller alla krav för både G och VG-betyget, är välstrukturerad och har god felhantering.
 
 💡 **Förbättringsförslag:**  
-Lägg till fullständig koddokumentation och implementera enhetstester för att ytterligare förbättra kvaliteten och underhållbarheten av koden.
+Bibehåll konsistens i kodstruktur och överväg att förbättra felhantering med bättre loggning.
