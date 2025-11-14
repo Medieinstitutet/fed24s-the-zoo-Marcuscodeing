@@ -66,10 +66,18 @@ Välj en teknik gällande css som ni antingen vill lära er mer om eller som ni 
 Ha roligt, skratta och lär er massor!
 
 ## 🔍 ESLint-varningar:
-- C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-Marcuscodeing\src\reducers\animalReducer.ts - no-unused-vars - 'LOADED' is defined but never used.,no-unused-vars - 'FED' is defined but never used.
+- /app/repos/fed24s-the-zoo-Marcuscodeing/src/reducers/animalReducer.ts - no-unused-vars - 'LOADED' is defined but never used.,no-unused-vars - 'FED' is defined but never used.
 
 ## 🏆 **Betyg: G**
-📌 **Motivering:** Projektet uppfyller alla grundläggande krav för betyget G. Koden är välstrukturerad och följer etablerade konventioner för frontend-utveckling. Funktionaliteten för att visa och mata djur är korrekt implementerad, och trasiga bildlänkar hanteras väl. Projektet använder en router för att hantera olika sidor och har implementerat en annan teknik än ren CSS för styling. För att nå betyget VG saknas implementationer som användning av context för komponentkommunikation och reducers för djurhantering, samt subtila animeringar vid interaktioner.
+📌 **Motivering:** Projektet uppfyller de grundläggande kraven för betyget G. Studenten har implementerat en router för att visa olika sidor, hanterar trasiga bildlänkar korrekt, och använder en annan teknik än ren CSS för styling. Funktionaliteten för att mata djur och spara tiden är också implementerad. Dock saknas vissa element som krävs för att nå VG-nivå, såsom användning av context API och reducers samt subtila animeringar.
 
 💡 **Förbättringsförslag:**  
-För att förbättra och nå betyget VG, implementera context för komponentkommunikation istället för props, använd reducers för djurhantering istället för state, och inkludera subtila animeringar vid interaktioner. Dessutom kan kodkvaliteten förbättras genom att minska upprepningar och förbättra felhanteringen, särskilt vid datahämtning från API:et.
+För att förbättra projektet och potentiellt nå VG-nivå bör följande åtgärder övervägas: 
+
+1. **Användning av Context API och Reducers**: Implementera context API istället för props för att hantera delad state mellan komponenter, och använd reducers för state management av djur.
+
+2. **Förbättrad Användarupplevelse**: Inför subtila animeringar vid klick på knappar och vid sidladdningar för att förbättra användarupplevelsen.
+
+3. **Matningslogik och Statuspresentation**: Säkerställ att matningslogiken nollställs korrekt när användaren återvänder till djur-sidan, och att djurens status presenteras diskret på översiktssidan enligt de specificerade tiderna.
+
+4. **Kodstruktur och Organisation**: Förbättra kodens struktur genom att organisera komponenter och moduler mer logiskt, samt minska kodupprepning genom att extrahera gemensam funktionalitet till återanvändbara komponenter eller funktioner.
