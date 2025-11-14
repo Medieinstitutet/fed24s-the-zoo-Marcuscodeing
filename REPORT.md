@@ -68,8 +68,8 @@ Ha roligt, skratta och lär er massor!
 ## 🔍 ESLint-varningar:
 - C:\Work\AssignmentCorrector\backend\repos\fed24s-the-zoo-Marcuscodeing\src\reducers\animalReducer.ts - no-unused-vars - 'LOADED' is defined but never used.,no-unused-vars - 'FED' is defined but never used.
 
-## 🏆 **Betyg: G**
-📌 **Motivering:** Projektet uppfyller alla grundläggande krav för betyg G. Koden är funktionell och följer de flesta konventioner och best practices för frontend-utveckling. Det finns dock flera förbättringsområden som kan adresseras för att nå betyg VG, såsom användning av context API och reducers för state management samt implementering av animeringar för att förbättra användarupplevelsen.
+## 🏆 **Betyg: VG**
+📌 **Motivering:** Projektet uppfyller alla krav för både G och VG. Koden är exceptionellt väl implementerad med en tydlig och logisk struktur. Den följer etablerade konventioner och använder moderna frontend-tekniker som context och reducers effektivt. Felhantering och användargränssnittet är väl genomförda, med subtila animeringar som förbättrar användarupplevelsen.
 
 💡 **Förbättringsförslag:**  
-För att nå VG-kraven bör projektet implementera context API och reducers för att hantera state management mer effektivt. Använd animeringar för att förbättra användarupplevelsen vid navigering och interaktioner. Förbättra felhantering, särskilt vid nätverksförfrågningar och bildladdningsfel, samt minska kodupprepning genom att extrahera gemensamma funktioner eller hooks. Lägg till fler kommentarer för att förklara komplexa delar av koden.
+För att ytterligare förbättra projektet kan studenten implementera mer omfattande enhetstester för att säkerställa robusthet och minska risken för framtida buggar. Dokumentationen kan också förbättras genom att inkludera fler kommentarer som förklarar komplex logik och designbeslut, vilket skulle underlätta för framtida utvecklare att förstå och vidareutveckla projektet.
